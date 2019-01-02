@@ -1,0 +1,23 @@
+
+
+<div>
+  {{ 'Intro' | translate }}
+</div>
+
+<p></p>
+<button (click)="switchLanguage('en')">English</button>
+ 
+<button (click)="switchLanguage('fr')"> Franch </button>
+
+<p>{{returnedString}}</p>
+
+<p>Skills: (johnye: add token in http-interceptor.ts) </p>
+
+
+<ul *ngFor="let skill of skills.agentSkillAssignments">
+  <li> {{skill.SkillName}} - BusinessUnitId: {{skill.BusinessUnitId}}. - AgentName: {{skill.AgentName}} </li>
+
+  
+</ul>
+
+

@@ -1,0 +1,8 @@
+{
+ 
+    "Title": "Translation example",
+ 
+    "Intro": "Hello I am {{test}}, I am here to test..",
+ 
+    "wrongpage": "404"
+}
